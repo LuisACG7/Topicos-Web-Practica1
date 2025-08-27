@@ -1,4 +1,5 @@
 <?php
+// Servidor de base de datos a conectar (localhost en WSL). 
 $servidor_bd = 'localhost'; // IP de loopback para el motor MySQL/MariaDB local.
 
 // Puerto del servicio de base de datos. 
