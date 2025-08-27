@@ -1,6 +1,6 @@
 <?php
 // Servidor de base de datos a conectar (localhost en WSL). 
-$servidor_bd = '127.0.0.1'; // IP de loopback para el motor MySQL/MariaDB local.
+$servidor_bd = 'localhost'; // IP de loopback para el motor MySQL/MariaDB local.
 
 // Puerto del servicio de base de datos. 
 $puerto_bd = 3306; // Puerto estándar de MySQL/MariaDB.
@@ -8,9 +8,9 @@ $puerto_bd = 3306; // Puerto estándar de MySQL/MariaDB.
 $nombre_bd = 'sakila'; 
 
 // Usuario con permisos sobre la base. 
-$usuario_bd = 'luis'; 
+$usuario_bd = '20031609'; 
  
-$contrasena_bd = '1234'; 
+$contrasena_bd = '20031609'; 
 
 // Opciones de PDO para manejo de errores y formato de resultados. 
 $opciones_pdo = [
